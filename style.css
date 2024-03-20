@@ -1,0 +1,190 @@
+body{
+    font-family: "Madimi One", sans-serif;
+}
+header{
+    background-color: #DADADA;
+    opacity: 40%;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.logo{
+ width: 60px;
+ padding-top: 20px;
+ padding-left: 40px;
+}
+
+main{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedorCajaTexto{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    padding-left: 100px;
+    width: 1040px;
+    height: 600px;
+}
+
+.cajaTexto{
+    width: 60%;
+    height: 80%;
+    border: none;
+    background-color: #faf4fc;
+    color: #F2A7C6;
+    font-size: 17px;
+    font-weight: 120;
+}
+
+.cajaTexto::placeholder{
+    color: #F2A7C6;
+}
+
+.alerta{
+    position: absolute;
+    top: 600px;
+    left: 200px;
+    display: flex;
+    font-size: 13px;
+    color: #DADADA;
+}
+
+.imgAlerta{
+    width: 20px;
+    height: 20px;
+}
+
+.contenedorBotones{
+    position: absolute;
+    top: 610px;
+    height: 80px;
+    padding-left: 15%;
+    padding-top: 15px;
+}
+
+.botonEncriptar{
+    width: 250px;
+    height: 50px;
+    border-radius: 24px;
+    background-color: #BBBBBB;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Madimi One", sans-serif;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.botonDesencriptar{
+    width: 250px;
+    height: 50px;
+    border-radius: 24px;
+    background-color: white;
+    color: #BBBBBB;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Madimi One", sans-serif;
+    border: 2px solid #F2A7C6;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.seccion2{
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 800px;
+    right: 60px;
+    padding-right: 80px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px black;
+}
+
+.contenedorDibujo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    left: 50px;
+    top: 100px;
+    box-sizing: border-box;
+    padding-top: 120%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Gato{
+    width: 200px;
+    height: 400px;
+}
+
+.contenedorParrafo{
+    position: absolute;
+    box-sizing: border-box;
+    top: 100px;
+    left: 40px;
+}
+
+.contenedorParrafo h3{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Madimi One", sans-serif;
+    text-align: center;
+    color: #BBBBBB;
+}
+
+.contenedorParrafo p{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #DADADA;
+    padding-top: 20px;
+}
+
+.contenedorResultado{
+    position: absolute;
+    bottom: 410px;
+    width: 320px;
+    height: 450px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 25px;
+}
+
+.contenedorResultado p{
+    color: #BBBBBB;
+    font-size: 25px;
+}
+
+.contenedorCopiar{
+    display: flex;
+    position: absolute;
+    bottom: 400px;
+    top: 700px;
+    background-color: #F2A7C6;
+}
+
+.botonCopiar{
+    width: 250px;
+    height: 50px;
+    border-radius: 24px;
+    background-color: #BBBBBB;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Madimi One", sans-serif;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    left: 70px;
+}

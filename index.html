@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+        <title> Text Encryptor </title>
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="Imagenes/Recurso 1.png" alt="Logo Alvi">
+        </header>
+        <main>
+            <section class="seccion1">
+                <div class="contenedorCajaTexto">
+                    <textarea placeholder="Write your text here..." class="cajaTexto"></textarea>
+                </div>
+                <div class="alerta">
+                    <img class="imgAlerta" src="Imagenes/Recurso 3.png" alt="Imagen de alerta">
+                    <p> Only lowercase letters and no accents.</p>
+                </div>
+                <div class="contenedorBotones">
+                    <input type="button" class="botonEncriptar" value="Encrypt">
+                    <input type="button" class="botonDesencriptar" value="Decrypt">
+                </div>
+            </section>
+            <section class="seccion2">
+                <div class="contenedorDibujo">
+                    <img class="Gato" src="Imagenes/Recurso 2.png" alt="Dibujo de Pagina">
+                </div>
+                <div class="contenedorParrafo">
+                    <h3>No message found</h3>
+                    <p>Write the text you wish to encrypt or ><br> Decrypt</p>
+                </div>
+                <div class="contenedorCopiar">
+                    <input type="button" class="botonCopiar" value="Copy">
+                    <p class="textoResultado"></p>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
